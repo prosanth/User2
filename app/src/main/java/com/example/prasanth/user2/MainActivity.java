@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //User 2 writing to first
+                //User2 writing to first
                 mref = new Firebase("https://prasanth-110.firebaseio.com/first");
                 EditText editText = (EditText) findViewById(R.id.editText);
                 String edit = editText.getText().toString();
